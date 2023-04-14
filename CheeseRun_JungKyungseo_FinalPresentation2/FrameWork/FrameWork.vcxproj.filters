@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="D3D Core">
+      <UniqueIdentifier>{7a9ad97c-09d8-4716-a30f-b6d891dc555c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D Core\코어 헤더파일">
+      <UniqueIdentifier>{9de5f299-b97a-4cbc-8b76-fa4257b5fed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D Core\코어 소스">
+      <UniqueIdentifier>{6658b04b-ad02-4972-bbd6-56610a7d0b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameManager">
+      <UniqueIdentifier>{cebaf1a7-eceb-4a76-b89b-546059c9a4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Map">
+      <UniqueIdentifier>{13bb9f74-4bfc-47bf-91dd-a899910e8f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\타겟">
+      <UniqueIdentifier>{05d597ef-9e58-4611-b83f-f54f7931552b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\몬스터">
+      <UniqueIdentifier>{35f61e2f-4170-4def-8e3f-297eeada4a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Mysql">
+      <UniqueIdentifier>{8f36a8e7-495b-493c-9a78-ed4359633356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Bomb">
+      <UniqueIdentifier>{3fd749fa-bc86-45ee-bd58-c9b50df90776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Score">
+      <UniqueIdentifier>{0d8c89a4-88a9-424e-8c04-067cb39e2cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Block">
+      <UniqueIdentifier>{e1a09149-8b90-499c-b397-8a9fc11ce72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Trap">
+      <UniqueIdentifier>{f9200660-9c20-47c7-90c8-f60798380d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Item">
+      <UniqueIdentifier>{9c6d4082-0d6b-4f10-960f-203d9315a200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FmodSound">
+      <UniqueIdentifier>{fd8ea5f0-0b1d-4f1c-87e0-2ac54a63a031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MiniMap">
+      <UniqueIdentifier>{143cfcd5-e9d7-401f-88e7-999dd13de321}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="key.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Chap.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMng.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Over.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUTsound.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>소스 파일\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>소스 파일\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceFont.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Target.h">
+      <Filter>소스 파일\타겟</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="Mysql.h">
+      <Filter>소스 파일\Mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>소스 파일\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>소스 파일\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>소스 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>소스 파일\Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>소스 파일\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="FmodSound.h">
+      <Filter>소스 파일\FmodSound</Filter>
+    </ClInclude>
+    <ClInclude Include="Method.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>소스 파일\MiniMap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="key.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="CMng.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Over.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUTsound.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>소스 파일\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceFont.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Target.cpp">
+      <Filter>소스 파일\타겟</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="Mysql.cpp">
+      <Filter>소스 파일\Mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>소스 파일\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>소스 파일\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>소스 파일\Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="FmodSound.cpp">
+      <Filter>소스 파일\FmodSound</Filter>
+    </ClCompile>
+    <ClCompile Include="Method.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>소스 파일\MiniMap</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
